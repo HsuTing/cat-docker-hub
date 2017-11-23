@@ -42,6 +42,5 @@ EXPOSE 8000
 EXPOSE 8080
 EXPOSE 9000
 
-RUN mkdir /root/work
-WORKDIR /root/work
+WORKDIR /root
 CMD "/run.sh"

@@ -15,6 +15,9 @@ RUN ./configure
 RUN make
 RUN make install
 
+# vim
+RUN apt install -y vim
+
 # cat-bin
 RUN yarn global add https://github.com/HsuTing/cat-bin.git
 

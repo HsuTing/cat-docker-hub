@@ -19,7 +19,7 @@ RUN make install
 RUN apt install -y vim
 
 # cat-bin
-RUN yarn global add https://github.com/HsuTing/cat-bin.git
+RUN yarn global cat-bin
 
 # ssh
 RUN apt -y install openssh-server

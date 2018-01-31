@@ -4,7 +4,7 @@ See [debian-ssh](https://github.com/krlmlr/debian-ssh) to learn how to open the 
 
 - build image
 ```sh
-docker run -t server .
+docker build -t server .
 ```
 
 - run container

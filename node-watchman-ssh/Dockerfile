@@ -19,7 +19,7 @@ RUN make install
 RUN apt install -y vim
 
 # cat-bin
-RUN yarn global cat-bin
+RUN yarn global add cat-bin
 
 # ssh
 RUN apt -y install openssh-server
@@ -41,9 +41,6 @@ RUN useradd docker \
 # expose
 # use the port you need
 EXPOSE 22
-EXPOSE 8000
-EXPOSE 8080
-EXPOSE 9000
 
 WORKDIR /root
 CMD "/run.sh"
